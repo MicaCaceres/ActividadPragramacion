@@ -1,29 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace ActividaddParcial
 {
     internal class Calcular
     {
-        int valor = 0; int cont = 0;
-        double total = 0;
+        private double total;
 
-        public int AgregarValor(int valor);{
-        cont++;
+        public double AgregarValor(int valor){
             total+=valor;
             return total;
         }
-    public double CalcularPromedio();
-    {
-        if (cont==0 && total==0){
-        Console.WriteLine("no se puede calcular sin ingresos: el promedio es 0");
-        else return(total/cont*100)
-    }
-         
-    }
+         public double CalcularPromedio(int cont){
+
+            if (cont == 0)
+            {
+                Console.WriteLine("no se puede calcular sin ingresos: el promedio es 0");
+                return 0;
+            }
+
+            else
+            {
+
+                double promedio = (total / cont);
+                return promedio;
+            }  
+
+        }
 
     }
 }

@@ -10,39 +10,36 @@ namespace ActividaddParcial
     {
         static void Main(string[] args)
         {
+            int opcion; int valor; int cont = 0;
             Calcular numC = new Calcular();
-            {
 
-            }
-
-             void Menu();
+              void Menu()
             {
-                int opcion = 0; int valor = 0;
                 Console.WriteLine("1-Ingresar valor");
                 Console.WriteLine("2-Calcular Promedio");
                 Console.WriteLine("3-Salir");
                 opcion = Convert.ToInt32(Console.ReadLine());
 
-
+            }
                 do
                 {
+                Menu();
                     switch (opcion)
                     {
                         case 1:Console.WriteLine("Ingrese valor a agregar");
                             valor = Convert.ToInt32(Console.ReadLine());
+                            cont++;
                             numC.AgregarValor(valor);
                             break;
                         case 2:
-                            
-                            Console.WriteLine(numC.CalcularPromedio);
+                            Console.WriteLine("El promedio es de: "+numC.CalcularPromedio(cont));
                                 break;
-                        default:
-                            Console.WriteLine("Se cerrara el programa");
 
                     }
 
                 } while (opcion > 0 && opcion < 3);
-            }
+            Console.ReadKey();
         }
     }
 }
+
