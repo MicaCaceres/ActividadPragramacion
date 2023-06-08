@@ -1,0 +1,8 @@
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\bin\Debug\ActividaddParcial.exe.config
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\bin\Debug\ActividaddParcial.exe
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\bin\Debug\ActividaddParcial.pdb
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\obj\Debug\ActividaddParcial.csproj.AssemblyReference.cache
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\obj\Debug\ActividaddParcial.csproj.SuggestedBindingRedirects.cache
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\obj\Debug\ActividaddParcial.csproj.CoreCompileInputs.cache
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\obj\Debug\ActividaddParcial.exe
+C:\Users\TUP\Desktop\ActividadPragramacion-main\ActividaddParcial\ActividaddParcial\obj\Debug\ActividaddParcial.pdb

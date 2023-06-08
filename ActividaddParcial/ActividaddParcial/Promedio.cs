@@ -4,25 +4,23 @@ namespace ActividaddParcial
     internal class Calcular
     {
         private double total;
+        int cont;
 
-        public double AgregarValor(int valor){
+        public void AgregarValor(double valor){
             total+=valor;
-            return total;
+            cont++;
         }
-         public double CalcularPromedio(int cont){
+         public double CalcularPromedio(){
 
-            if (cont == 0)
-            {
-                Console.WriteLine("no se puede calcular sin ingresos: el promedio es 0");
-                return 0;
+
+            double  promedio=0;
+            if (cont > 0) 
+            { 
+                promedio = (total / cont);
             }
-
-            else
-            {
-
-                double promedio = (total / cont);
+                
                 return promedio;
-            }  
+            
 
         }
 
